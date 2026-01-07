@@ -2,37 +2,54 @@ Title: Kings Tire Invoice app
 
 
 
-Features (MVP):
+ Project Overview:
 
-Create invoice with customer + vehicle info
+Auto Shop Invoice Manager is a browser-based web application built with Java and Spring Boot to replace paper invoices at an auto repair shop.
 
-Line items (qty, description, amount)
+The application allows shop employees to:
 
-Save invoices to database
+Create digital invoices with customer and vehicle information
 
-Search by phone / license plate / VIN last 6 / make-model / date
+Add multiple service line items
 
-Print invoice in 8.5x11 format
+Automatically calculate totals
+
+Save invoices to a database
+
+Search invoice history by phone number, license plate, VIN, or vehicle details
+
+Print professional 8.5 × 11 invoices for customers
+
+The system is designed to run on a shop computer and be accessed through a web browser, eliminating the need for physical paper records while maintaining a simple workflow.
 
 
+Architecture:
 
-Tech Stack:
+Backend: Java + Spring Boot (MVC)
 
-Java + Spring Boot
+Frontend: Thymeleaf (server-rendered HTML)
 
-Thymeleaf
+Database: H2 (development), PostgreSQL (production)
 
-PostgreSQL
+Printing: Browser-based print layout optimized for 8.5 × 11 invoices
 
-Flyway migrations (later)
 
 
 Screens (planned):
 
-New Invoice
-
-Invoice Details / Print
+New invoice
 
 Search Invoices
 
+Invoice details / print
+
+
+
+Project Goals:
+
+Replace manual paper invoices
+
+Improve invoice lookup and record keeping
+
+Create a real-world, production-style application for portfolio use
 
